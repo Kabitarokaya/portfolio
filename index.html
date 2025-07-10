@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="home">
+    <!-- navbar -->
+    <nav class="navbar bg-body-tertiary fixed-top navbar-expand-lg ">
+        <div class="container mx-auto ">
+            <a class="navbar-brand" href="#"><span class="logo">K</span>abita Rokaya</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><span class="logo">K</span>abita Rokaya</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 gap-4 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link aa" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link aa" href="#project">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link aa" href="#skill">Skills</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link aa" href="#contact">Contact</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- banner section -->
+    <section class="py-5 banner mt-5">
+        <div class="container gap-5 mobile flex-sm-wrap mt-5 flex-lg-nowrap  d-flex justify-content-between  mx-auto">
+            <div class="border box1 px-4 flex-lg-nowrap flex-sm-wrap d-flex justify-content-between gap-4 py-3  ">
+                <div class="mt-5">
+                    <h3>Hello, It's Me</h3>
+                    <h1>Kabita Rokaya</h1>
+                    <h3>And I'm a <span>Frontend developer</span></h3>
+
+                    <a href="#"><button class="btn mx-5 my-3  btn-danger">Download CV</button></a>
+                </div>
+                <img src="./kali.jpg" width="250px" 3 alt="">
+
+            </div>
+            <div class="bg-white  py-5 px-3  mt-5 text-center box">
+                <div>
+                    <h3 class="text-black">Get In Touch</h3>
+                    <p class="text-black">This is my digital corner feel free to reach out or connect with me.</p>
+                    <div class=" justify-content-center social d-flex  gap-3">
+                        <a href="https://facebook.com" target="_blank"> <i class="bi bi-facebook  "></i>
+                        </a>
+                        <a href="https://github.com/Kabitarokaya" target="_blank"><i class="bi bi-github "></i></a>
+                        <a href="https://www.linkedin.com/in/kabita-rokaya-b51b82348/" target="_blank"><i
+                                class="bi bi-linkedin "></i></a>
+                        <a href="mailto:kabitarokay9@gmail.com"> <i class="bi bi-envelope "></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about me section -->
+    <section id="about" class="py-5 about bg-white text-secondary">
+
+
+        <div class="container absolute top-0 left-0 d-flex justify-content-between align-items-center  gap-5 mx-auto">
+            <div class="px-5  m py-5 text-center">
+                <img src="./kappu.jpg" width="250px" height="200px" class="cover" alt="">
+            </div>
+            <div>
+                <h1>About <span class="text-warning">Me</span></h1>
+                <h3>Frontend Developer</h3>
+                <p>Hi! I’m a passionate Frontend Developer with a strong interest in building beautiful, responsive, and
+                    user-friendly websites. I love working with technologies like <span class="text-black"> HTML, CSS,
+                        JavaScript, ReactJs,NextJs, Bootstrap and Tailwind CSS,</span> and I’m always eager to learn new
+                    tools and frameworks.I enjoy solving real-world problems through code and continuously improving my
+                    skills.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- project section -->
+
+    <section class="py-5" id="project">
+        <div class="container mx-auto">
+            <h1 class="text-center">Projects</h1>
+            <div class="d-flex flex-wrap  flex-sm-wrap flex-md-wrap  gap-5">
+                <!-- ecommerce project -->
+                <div class="project  p-3 mb-4 ">
+                    <a href="https://upwear.vercel.app/" target="_blank"> <img src="./ecommerce.png"
+                            class="card-img-top" alt="..." width="400px">
+                        <p class="card-text">
+                            Upwear is a fully responsive e-commerce website developed using Next.js and Tailwind CSS. It
+                            features category-wise product listings, a shopping cart powered by Context API, and a clean
+                            user interface. Users can browse products, view details, and manage their cart seamlessly
+                            across pages.
+
+                        </p>
+                    </a>
+                    <div class="text-center mt-3">
+                        <a href="https://github.com/Kabitarokaya/upwear" target="_blank">
+                            <button class="btn btn-danger">Github</button>
+                        </a>
+                    </div>
+                </div>
+                <!-- innovar website -->
+                <div class="project  p-3 mb-4 ">
+                    <a href="https://innovar-23np.vercel.app/" target="_blank"> <img src="./innovar.png"
+                            class="card-img-top" alt="..." width="400px">
+                        <p class="card-text">
+                            Innovar is a fully responsive and modern IT company landing page built using Next.js and
+                            Tailwind CSS. It features a clean layout, service highlights, and smooth navigation
+                            optimized for both desktop and mobile devices.
+
+                        </p>
+                    </a>
+                    <div class="text-center mt-3">
+                        <a href="https://github.com/Kabitarokaya/innovar" target="_blank">
+                            <button class="btn btn-danger">Github</button>
+                        </a>
+                    </div>
+                </div>
+                <!-- Tour and travels project  -->
+                <div class="project  p-3 mb-4 ">
+                    <a href="https://tour-travels-1rao.vercel.app/" target="_blank"> <img src="./tour.png"
+                            class="card-img-top" alt="..." width="400px">
+                        <p class="card-text">
+                            A fully responsive and user-friendly travel booking website built using Next.js and Tailwind
+                            CSS. The project showcases modern UI design with smooth navigation and mobile
+                            responsiveness.
+                        </p>
+                    </a>
+                    <div class="text-center mt-3">
+                        <a href="https://github.com/Kabitarokaya/tour-travels" target="_blank">
+                            <button class="btn btn-danger">Github</button>
+                        </a>
+                    </div>
+                </div>
+                <!-- business website -->
+                <div class="project  p-3 mb-4 ">
+                    <a href="https://business-iota-three.vercel.app/" target="_blank"> <img src="./business.png"
+                            class="card-img-top" alt="..." width="400px">
+                        <p class="card-text">
+                            A modern and fully responsive business website built using Next.js and Tailwind CSS. It
+                            features a professional layout, service sections, and a contact form. The site is designed
+                            for smooth navigation and mobile compatibility.
+
+                        </p>
+                    </a>
+                    <div class="text-center mt-3">
+                        <a href="https://github.com/Kabitarokaya/business" target="_blank">
+                            <button class="btn btn-danger">Github</button>
+                        </a>
+                    </div>
+                </div>
+                <!-- smaartholiday website -->
+                <div class="project  p-3 mb-4 ">
+                    <a href="https://kabitarokaya.github.io/smartholiday/" target="_blank"> <img
+                            src="./smartholiday.png" class="card-img-top" alt="..." width="400px">
+                        <p class="card-text">
+                            SmartHoliday is a simple and responsive travel and holiday booking website built using HTML
+                            and CSS.
+                            It offers users travel packages, hotel booking options, and trip planning features with a
+                            clean and easy-to-navigate layout.
+                        </p>
+                    </a>
+                    <div class="text-center mt-3">
+                        <a href="https://github.com/Kabitarokaya/smartholiday" target="_blank">
+                            <button class="btn btn-danger">Github</button>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- news website -->
+                <div class="project  p-3 mb-4 ">
+                    <a href="https://news-seven-kohl.vercel.app/" target="_blank"> <img src="./kathnandupost.png"
+                            class="card-img-top" alt="..." width="400px">
+                        <p class="card-text">
+                            A modern and responsive news website developed using Next.js and Tailwind CSS. It displays
+                            the latest news articles with a clean UI, fast loading, and smooth user experience. News
+                            content is organized by categories for easy navigation.
+
+                        </p>
+                    </a>
+                    <div class="text-center mt-3">
+                        <a href="https://github.com/Kabitarokaya/news" target="_blank">
+                            <button class="btn btn-danger">Github</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- skills section -->
+    <section id="skill" class="py-5">
+        <div class="container text-center mx-auto">
+            <h1 class="my-5">Skills</h1>
+            <div class="d-flex skill mx-auto flex-wrap gap-5">
+                <div class="skillimg">
+                    <img height="200px"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEc9A_S6BPxCDRp5WjMFEfXrpCu1ya2OO-Lw&s"
+                        width="250px" alt="">
+                </div>
+
+                <div class="skillimg">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSubsfvX1GCHF8amyfEQxTz7AECFDY-oGMVTg&s"
+                        height="200px" width="250px" alt="">
+                </div>
+                <div class="skillimg">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx6bItCDw_xt1e6Z2XUHC0OwUmdhfkLEBHKg&s"
+                        height="200px" width="250px" alt="">
+                </div>
+                <div class="skillimg">
+                    <img height="200px"
+                        src="https://img.freepik.com/free-vector/mobile-ui-ux-concept-illustration_114360-10976.jpg?semt=ais_hybrid&w=740"
+                        width="250px" alt="">
+                </div>
+                <div class="skillimg">
+                    <img height="200px"
+                        src="https://media.licdn.com/dms/image/v2/D4E12AQGg-LDzm8FVUQ/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1685274368041?e=2147483647&v=beta&t=qZwhkkgpM2btd71yEFbUeTKyeDrv1AYQjjiyj_RA3Pk"
+                        width="250px" alt="">
+                </div>
+
+                <div class="skillimg">
+                    <img height="200px"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM0RdIIYVlc8rkNWJzNrRF9yVKLxlTiQZ3Zwb2EBRVf7lEP4XkxSw9qDdfnNV-meMxYwI&usqp=CAU"
+                        width="250px" alt="">
+                </div>
+
+                <div class="skillimg">
+                    <img height="200px"
+                        src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Feibm96k9y07irdwu0wlj.png"
+                        width="250px" alt="">
+                </div>
+
+                <div class="skillimg">
+                    <img height="200px" src="https://miro.medium.com/v2/resize:fit:1400/1*qwFrTMnFkcd3U9rFKwwacw.png"
+                        width="250px" alt="">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- contact section -->
+
+
+    <section id="contact" class=" py-5">
+        <div class="container  mx-auto">
+            <h1 class="text-center my-5">Contact Me</h1>
+            <div class="contact bg-white p-3 mx-auto">
+                <form action="">
+                    <div class="mb-3">
+                        <label for="" class="form-label">Full Name:</label>
+                        <input type="text" class="form-control" id="" placeholder="" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="" class="form-label">Email:</label>
+                        <input type="email" class="form-control" id="formGroupExampleInput2" placeholder="">
+                    </div>
+                    <div class="mb-3">
+                        <label for="" class="form-label">Phone:</label>
+                        <input type="number" class="form-control" id="formGroupExampleInput2" placeholder="">
+                    </div>
+                    <div class="mb-3">
+                        <label for="Message" class="form-label">Message:</label>
+                        <textarea class="form-control" id="Message" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class=" mb-4 mt-2 btn btn-primary">Contact ME</button>
+                </form>
+
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- foooter section -->
+    <footer class="py-5 text-black bg-primary text-white ">
+        <div class="container text-center mx-auto">
+
+            <h3>Get In Touch</h3>
+            <div class=" justify-content-center d-flex  gap-3">
+                <a href="https://facebook.com" target="_blank"> <i class="bi bi-facebook "></i>
+                </a>
+                <a href="https://github.com/Kabitarokaya" target="_blank"><i class="bi bi-github "></i></a>
+                <a href="https://www.linkedin.com/in/kabita-rokaya-b51b82348/" target="_blank"><i
+                        class="bi bi-linkedin "></i></a>
+                <a href="mailto:kabitarokay9@gmail.com"> <i class="bi bi-envelope "></i></a>
+            </div>
+
+
+            <p class="my-4">
+                © 2025 Kabita Rokaya. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
