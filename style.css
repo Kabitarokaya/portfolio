@@ -122,6 +122,11 @@ background: rgb(243, 240, 240);  }
     width: 100%;
 
   }
+.absolute{
+  flex-wrap:wrap;
+  width:100%;
+}
+  
 .box1{
 flex-wrap:wrap;
   width:100%;
