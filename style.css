@@ -122,15 +122,9 @@ background: rgb(243, 240, 240);  }
     width: 100%;
 
   }
-.absolute{
-  flex-wrap:wrap;
-  width:100%;
-}
+
   
-.box1{
-flex-wrap:wrap;
-  width:100%;
-  height:600vh;
+
   .box1 span{
     color: rgb(133, 12, 32);
   }
